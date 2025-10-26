@@ -60,6 +60,4 @@ app.delete("/players/:id", (req, res) => {
   res.status(404).json({ message: "Player não encontrado!" });
 });
 
-app.listen(3000, () => {
-  console.log("Rodando em http://localhost:3000");
-});
+export default app;
